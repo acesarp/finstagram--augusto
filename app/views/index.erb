@@ -1,0 +1,12 @@
+<% if current_user %>
+  <div class="new-post">
+    <a href="/posts/new" class="button">New Post</a>
+  </div>
+  <% end %>
+
+    <main role = "main">
+      <% @post.each do |post| %>
+      <%= erb(:"shared/post", { locals: { post: post, allow_new_comment: false }}) %>
+      <% end %>
+      
+    </main>

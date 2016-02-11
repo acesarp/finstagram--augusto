@@ -130,7 +130,7 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 30px;
 }
 
 /**
@@ -420,4 +420,11 @@ table {
 td,
 th {
   padding: 0;
+}
+
+a {
+  font-size: 1.5em;
+  margin: 30px;
+  color: #99A954;
+  font-weight: bold;
 }
